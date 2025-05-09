@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 30px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #1a252f;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* Style pour l'image sur la page d'accueil */
+.image-accueil {
+    width: 100%; /* L'image prendra toute la largeur disponible */
+    max-width: 800px; /* L'image ne sera pas plus large que 800px */
+    margin: 20px 0; /* Espacement autour de l'image */
+    display: block; /* Pour centrer l'image horizontalement */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px; /* Ajouter des coins arrondis */
+}
+
+.texte-justifie {
+    text-align: justify;
+}
+
+.entete {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    height: 85px; /* Ajuster la taille selon tes préférences */
+    width: 85px; /* Ajuster la taille selon tes préférences */
+    object-fit: cover; /* Assure que l'image reste bien centrée et remplisse son conteneur */
+    border-radius: 50%; /* Rendre l'image ronde */
+}
